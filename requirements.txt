@@ -1,0 +1,12 @@
+scikit-learn==1.9.1
+xgboost==3.2.0
+lightgbm==4.7.0
+shap==0.51.0
+pandas==3.0.6
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+seaborn==0.13.2
+openpyxl==3.1.5
+python-docx>=1.1.0
+ucimlrepo>=0.0.7
