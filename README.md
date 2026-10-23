@@ -28,17 +28,15 @@ project/
 │   ├── s04_stats.py         discrimination metrics + bootstrap CIs,
 │   │                        temporal DeLong tests, model tests, calibration
 │   │                        metrics, reliability bins, subgroups
-│   ├── s04b_fix_tests.py    (maintenance) regenerate test tables
-│   ├── s04c_thresholds.py   decision-threshold policies + classification
+│   ├── s05_thresholds.py   decision-threshold policies + classification
 │   │                        metrics + conditional-lethality table
-│   ├── s05_shap.py          SHAP (TreeExplainer) per outcome, fixed split
-│   ├── s06_utility.py       best-calibrated OOF, DCA, risk quintiles,
+│   ├── s06_shap.py          SHAP (TreeExplainer) per outcome, fixed split
+│   ├── s07_utility.py       best-calibrated OOF, DCA, risk quintiles,
 │   │                        RQ3 engineered features, Table 1, EPV,
 │   │                        imputation probe, literature comparison
-│   ├── s07_tables.py        manuscript + supplementary tables (CSV & DOCX)
-│   ├── s08_figures.py       all figures, uniform journal theme
-│   ├── s09_checks.py        automated triple validation (see below)
-│   └── s10_supplementary.py TRIPOD+AI checklist, feature dictionary,
+│   ├── s11_tables.py        manuscript + supplementary tables (CSV & DOCX)
+│   ├── s12_figures.py       all figures, uniform journal theme
+│   └── s13/s14_supplementary.py TRIPOD+AI checklist, feature dictionary,
 │                            statements
 ├── results/
 │   ├── oof/                 out-of-fold prediction tensors (npz)
