@@ -73,7 +73,6 @@ python code/s11_tables.py
 python code/s12_figures.py
 python code/s13_supplementary_docs.py
 python code/s14_supplementary_package.py
-python verify_results.py             # confirm code <-> published numbers
 ```
 
 Scripts are idempotent per (model, stage): existing OOF files are skipped,
